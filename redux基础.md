@@ -1,6 +1,6 @@
 ---
 
-##初始化
+## 初始化
 1、通过reducer创建store，`store=create(reducer,initValues)`
 将store导入view中
 
@@ -10,7 +10,7 @@
 
 ---
 
-##如何工作
+## 如何工作
 1、在view中，
 通过store的`dispatch(action)`方法，
 将action传给reducer进行逻辑处理，
@@ -19,6 +19,5 @@
 
 2、store中state的改变，会触发开始已经用`subscribe(listener)`注册在store上的listener，
 接着在listener中调用`this.setState()`方法对view中的state进行更新。
-
 
 
