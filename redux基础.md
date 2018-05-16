@@ -1,4 +1,3 @@
----
 
 ## 初始化
 1、通过reducer创建store，`store=create(reducer,initValues)`
@@ -8,7 +7,6 @@
 
 3、定义好action以及actionType
 
----
 
 ## 如何工作
 1、在view中，
@@ -21,4 +19,4 @@
 接着在listener中调用`this.setState()`方法对view中的state进行更新。
 
 
----
+
