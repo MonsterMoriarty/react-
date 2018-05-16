@@ -18,5 +18,6 @@
 2、store中state的改变，会触发开始已经用`subscribe(listener)`注册在store上的listener，
 接着在listener中调用`this.setState()`方法对view中的state进行更新。
 
-
+## 参考代码
+https://github.com/mocheng/react-and-redux/tree/master/chapter-03/redux_basic
 
