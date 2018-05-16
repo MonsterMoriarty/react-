@@ -1,5 +1,5 @@
 
-## 初始化
+## 1、初始化
 1、通过reducer创建store，`store=create(reducer,initValues)`
 将store导入view中
 
@@ -8,7 +8,7 @@
 3、定义好action以及actionType
 
 
-## 如何工作
+## 2、如何工作
 1、在view中，
 通过store的`dispatch(action)`方法，
 将action传给reducer进行逻辑处理，
