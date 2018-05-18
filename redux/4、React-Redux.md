@@ -51,7 +51,24 @@ class Counter extends Component {
 
 
 ## Provider：提供包含store的context
+直接在顶层导入react-redux的Provider即可，
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
 
+import ControlPanel from './views/ControlPanel';
+import store from './Store.js';
+
+import './index.css';
+
+ReactDOM.render(
+  <Provider store={store}>
+    <ControlPanel/>
+  </Provider>,
+  document.getElementById('root')
+);
+```
 
 
 
