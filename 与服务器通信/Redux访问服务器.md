@@ -3,6 +3,18 @@ package.json中添加"proxy": "http://localhost:8080/",
 
 ## redux-thunk中间件
 
+- 安装
+```
+npm install --save redux-thunk
+```
+
+- 引入
+```
+import thunkMiddleware from 'redux-thunk'
+
+const middlewares = [thunkMiddleware];
+```
+
 
 
 
