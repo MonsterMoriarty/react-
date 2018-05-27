@@ -40,7 +40,10 @@ Counter.defaultProps = {
 ## 2、读取和更新
 - 不能直接修改state，而要通过this.setState()，因为直接修改只会修改状态，却不会驱动组件重新渲染，setState函数修改状态之后会驱动组件进行重新渲染。
 
-
+读取：
+```
+ this.state.值
+```
 
 
 
